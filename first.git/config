@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@gitlab.com:ichanism/first.git
+[remote "repo1"]
+	url = https://github.com/ichanism/first.git
+	fetch = +refs/*:refs/*
